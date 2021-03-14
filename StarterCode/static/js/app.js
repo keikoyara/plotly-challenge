@@ -1,4 +1,4 @@
-// Test Subject ID drop down
+// Test Subject ID drop down.
 var json_data;
 var dropdown = d3.select("#selDataset")
 d3.json("./samples.json").then(function (data) {
